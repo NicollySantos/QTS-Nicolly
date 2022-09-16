@@ -1,0 +1,92 @@
+Janine@LAPTOP-F296A2TE MINGW64 ~/Documents/ETEC/3° ANO/QUALIDADE E TESTE DE SOFTWARE
+$  git clone https://github.com/JanineDiniz/QTS.git
+Cloning into 'QTS'...
+warning: You appear to have cloned an empty repository.
+
+Janine@LAPTOP-F296A2TE MINGW64 ~/Documents/ETEC/3° ANO/QUALIDADE E TESTE DE SOFTWARE
+$ cd QTS
+
+Janine@LAPTOP-F296A2TE MINGW64 ~/Documents/ETEC/3° ANO/QUALIDADE E TESTE DE SOFTWARE/QTS (main)
+$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        teste.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Janine@LAPTOP-F296A2TE MINGW64 ~/Documents/ETEC/3° ANO/QUALIDADE E TESTE DE SOFTWARE/QTS (main)
+$ git add .
+
+Janine@LAPTOP-F296A2TE MINGW64 ~/Documents/ETEC/3° ANO/QUALIDADE E TESTE DE SOFTWARE/QTS (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   teste.txt
+
+
+Janine@LAPTOP-F296A2TE MINGW64 ~/Documents/ETEC/3° ANO/QUALIDADE E TESTE DE SOFTWARE/QTS (main)
+$ git commit -m "só um teste msm"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Janine@LAPTOP-F296A2TE.(none)')
+
+Janine@LAPTOP-F296A2TE MINGW64 ~/Documents/ETEC/3° ANO/QUALIDADE E TESTE DE SOFTWARE/QTS (main)
+$ ^C
+
+Janine@LAPTOP-F296A2TE MINGW64 ~/Documents/ETEC/3° ANO/QUALIDADE E TESTE DE SOFTWARE/QTS (main)
+$ git config --global user.email "janine.diniz@outlook.com"
+
+Janine@LAPTOP-F296A2TE MINGW64 ~/Documents/ETEC/3° ANO/QUALIDADE E TESTE DE SOFTWARE/QTS (main)
+$ git config --global user.name "JanineDiniz"
+
+Janine@LAPTOP-F296A2TE MINGW64 ~/Documents/ETEC/3° ANO/QUALIDADE E TESTE DE SOFTWARE/QTS (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   teste.txt
+
+
+Janine@LAPTOP-F296A2TE MINGW64 ~/Documents/ETEC/3° ANO/QUALIDADE E TESTE DE SOFTWARE/QTS (main)
+$ git commit -m "só um teste msm"
+[main (root-commit) 472914c] só um teste msm
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 teste.txt
+
+Janine@LAPTOP-F296A2TE MINGW64 ~/Documents/ETEC/3° ANO/QUALIDADE E TESTE DE SOFTWARE/QTS (main)
+$ git status
+On branch main
+Your branch is based on 'origin/main', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+nothing to commit, working tree clean
+
+Janine@LAPTOP-F296A2TE MINGW64 ~/Documents/ETEC/3° ANO/QUALIDADE E TESTE DE SOFTWARE/QTS (main)
+$ git push
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 223 bytes | 223.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/JanineDiniz/QTS.git
+ * [new branch]      main -> main

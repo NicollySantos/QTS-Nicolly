@@ -1,0 +1,19 @@
+baixa e instala gitBash https://gitforwindows.org/
+
+entre na pasta local que ficará o arquivo -> entre com o GitBash
+
+git clone -> clona o repositório do git 
+
+uma pasta c o nome do repositório será criado na pasta local -> lá coloca os arquivos que quer colocar no git
+
+git status -> para ver se há arquivos para comitar
+
+git add . -> add os arquivos
+
+git commit -m "o que foi alterado" -> comita
+
+talvez peça o config (senha e usuário)
+
+git push -> para enviar para o git
+
+git status -> pra saber se realmente enviou os arquivos
